@@ -1,7 +1,7 @@
 FROM ansible/centos7-ansible
 
 # Add playbooks to the Docker image
-ADD ansible /srv/example/
+ADD sample /srv/example/
 WORKDIR /srv/example
 
 # Run Ansible to configure the Docker image
